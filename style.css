@@ -1,0 +1,98 @@
+.navegador{
+    display: flex;
+}
+.menu1{
+    width: 80px;
+    height: 50px;
+    margin-top: 25px;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 10px;
+    padding: 0px;
+    background-color: rgb(42, 35, 48);
+    color: white;
+    margin-right: 300px;
+}
+li{
+    float:left;
+}
+header{
+    width: 100%;
+    background-color: rgb(42, 35, 48);
+}
+.logo{
+    width: 100px;
+    height: 100%;
+    margin: auto;
+    margin-left: 10px;
+}
+.concept{
+    display: block;
+    background-image: url('./drew-beamer-kUHfMW8awpE-unsplash.jpg');
+}
+.concept2{
+    width: 281px;
+    height: 241px;
+    background-color: black;
+    position: relative;
+    text-align: center;
+    color: white;
+    right: -30%;
+}
+.concept1{
+    text-align: center;
+}
+main{
+    background-color: white;
+    background-image: url('./drew-beamer-kUHfMW8awpE-unsplash.jpg');
+}
+.letuce{
+    position: absolute;
+    width: 100px;
+    left: 251px;
+    top: 550px;
+    transform: rotate(-90deg);
+}
+div p{
+    position: relative;
+}
+.bebida{
+    position: absolute;
+    width: 100px;
+    left: 611px;
+    top: 550px;
+    transform: rotate(-90deg);
+}
+.fotos{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+.foto1{
+    width: 32%;
+    height: 25%;
+    padding: 5px;
+}
+.carta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.carta1{
+    list-style-type: none;
+    overflow: hidden;
+    flex-direction: row;
+}
+.type-carta{
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+.desayunos{
+    width: 40px;
+}
+.precios{
+    display: flex;
+}
